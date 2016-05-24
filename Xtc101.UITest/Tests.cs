@@ -33,10 +33,16 @@ namespace Xtc101.UITest
                 .StartApp(_platform);
         }
 
+		[Test]
+		public void Explorer()
+		{
+			app.Repl ();
+		}
+
         [Test]
         public void SubmittingAMessage_GivenATextIsEnteredAndSubmitted_ItCanBeReadFromTheSubmittedMessageField()
         {
-            var expectedResult = "Hello Android";
+            var expectedResult = "Hello from Xamarin Test Cloud";
 
             app.EnterText(c => c.Marked("MessageText"), expectedResult);
             app.Tap(c => c.Marked("SubmitMessage"));
