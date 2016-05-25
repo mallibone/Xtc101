@@ -34,6 +34,7 @@ namespace Xtc101.UITest
         }
 
 		[Test]
+		[Ignore]
 		public void Explorer()
 		{
 			app.Repl ();
