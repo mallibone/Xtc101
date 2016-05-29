@@ -57,9 +57,11 @@ namespace Xtc101.UITest
         {
             var expectedResult = "Hello from Xamarin Test Cloud";
 
+            app.Screenshot("Before entering text.");
             app.EnterText(c => c.Marked("MessageText"), expectedResult);
+            app.Screenshot("After entering text.");
             app.Tap(c => c.Marked("SubmitMessage"));
-
+            app.Screenshot("After submitting text.");
             var receivedResult = app.Query(c => c.Marked("SubmittedMessage")).First().Text;
             Assert.AreEqual(expectedResult, receivedResult);
         }
