@@ -23,13 +23,25 @@ namespace Xtc101.UITest
         [SetUp]
         public void BeforeEachTest()
         {
+            //Platform = _platform;
+            //if (_platform == Platform.Android)
+            //{
+            //    return ConfigureApp.Android
+            //        .ApkFile("../../../Xtc101.Droid/bin/Release/UITestsAndroid.apk")
+            //        //.DeviceSerial("emulator-5578")
+            //        //.ApiKey(apiKey)
+            //        .StartApp();
+            //}
+
+
+            //return ConfigureApp.iOS.StartApp();
             // TODO: If the Android app being tested is included in the solution then open
             // the Unit Tests window, right click Test Apps, select Add App Project
             // and select the app projects that should be tested.
             app = AppInitializer
                 // TODO: Update this path to point to your Android app and uncomment the
                 // code if the app is not included in the solution.
-                //.ApkFile ("../../../Android/bin/Debug/UITestsAndroid.apk")
+                //.ApkFile("../../../Xtc101.Droid/bin/Release/UITestsAndroid.apk")
                 .StartApp(_platform);
         }
 

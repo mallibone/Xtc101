@@ -1,5 +1,4 @@
-﻿using System;
-using Xtc101.Core;
+﻿using Xtc101.Core;
 
 namespace Xtc101.Droid
 {
