@@ -9,11 +9,8 @@ namespace Xtc101.Droid
 	[Activity(Label = "Xtc101.Droid", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
-		private EditText _editMessage;
-		private Button _messageButton;
 		private Binding<string, string> _messageBinding;
 		private Binding<string, string> _textViewBinding;
-		private TextView _previousMessage;
 
 		protected override void OnCreate(Bundle bundle)
 		{
