@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>Xtc101.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.noser.demo.xtc101-ios</string>
+	<string>com.noser.demo.xtc101</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
