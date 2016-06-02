@@ -73,6 +73,8 @@
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchProfiling>true</MtouchProfiling>
+    <BuildIpa>False</BuildIpa>
+    <IpaIncludeArtwork>False</IpaIncludeArtwork>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
