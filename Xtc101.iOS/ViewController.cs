@@ -23,7 +23,6 @@ namespace Xtc101.iOS
 			// Perform any additional setup after loading the view, typically from a nib.
 
 			HideKeyboardHandling ();
-
 			_textLabelBinding = this.SetBinding (
 				() => Vm.PreviousMessage,
 				() => SubmittedMessage.Text);
