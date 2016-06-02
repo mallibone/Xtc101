@@ -31,7 +31,6 @@ Global
 		{A4E673D6-3565-44A8-9AE1-1819662A9CFD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A4E673D6-3565-44A8-9AE1-1819662A9CFD}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{A4E673D6-3565-44A8-9AE1-1819662A9CFD}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{A4E673D6-3565-44A8-9AE1-1819662A9CFD}.Release|iPhone.Build.0 = Release|Any CPU
 		{A4E673D6-3565-44A8-9AE1-1819662A9CFD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{A4E673D6-3565-44A8-9AE1-1819662A9CFD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{A37717BB-30D4-4DCB-985B-B8EBDF58CB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
