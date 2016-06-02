@@ -29,7 +29,7 @@ namespace Xtc101.iOS
 
 			_textFieldBinding = this.SetBinding (
 				() => MessageText.Text)
-				.UpdateSourceTrigger ("EditingDidEnd")
+                .ObserveSourceEvent("EditingDidEnd")
 				.WhenSourceChanges (() => Vm.Message = MessageText.Text);
 
 			SubmitMessage.SetCommand("TouchUpInside", Vm.MessageCommand);

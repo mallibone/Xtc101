@@ -9,8 +9,10 @@ namespace Xtc101.Droid
 	[Activity(Label = "Xtc101.Droid", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
+	    // ReSharper disable NotAccessedField.Local
 		private Binding<string, string> _messageBinding;
 		private Binding<string, string> _textViewBinding;
+	    // ReSharper restore NotAccessedField.Local
 
 		protected override void OnCreate(Bundle bundle)
 		{
