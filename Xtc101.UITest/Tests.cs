@@ -10,12 +10,12 @@ namespace Xtc101.UITest
 {
     [TestFixture(Platform.Android)]
     [TestFixture(Platform.iOS)]
-    public class Tests
+    public class BasicTests
     {
         IApp app;
         private Platform _platform;
 
-        public Tests(Platform platform)
+        public BasicTests(Platform platform)
         {
             _platform = platform;
         }
