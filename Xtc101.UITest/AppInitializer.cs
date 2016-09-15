@@ -10,8 +10,8 @@ namespace Xtc101.UITest
             {
                 return ConfigureApp
                     .Android
-                    .Debug()
-                    .StartApp(Xamarin.UITest.Configuration.AppDataMode.Clear);
+                    .PreferIdeSettings()
+                    .StartApp();
             }
 
             return ConfigureApp
