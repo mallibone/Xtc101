@@ -46,5 +46,20 @@ namespace Xtc101.UITest.Page
         {
             _app.Tap(c => c.Marked("SubmitMessage"));
         }
+
+		public bool IsPageVisible()
+		{
+			try
+			{
+				_app.WaitForElement("MainPage");
+				return true;
+			}
+			catch (Exception e)
+			{
+				if (e.InnerException.GetType() != typeof(TimeoutException)) throw;
+				// timed out waiting for element
+				return false;
+			}
+		}
     }
 }

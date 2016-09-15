@@ -48,6 +48,8 @@ namespace Xtc101.UITest
         {
             var expectedResult = "Hello from Xamarin Test Cloud";
 
+			Assert.IsTrue(_mainPage.IsPageVisible(), "Expected Main Page to be visible");
+
             _app.Screenshot("Before entering text.");
             _mainPage.Text = expectedResult;
 

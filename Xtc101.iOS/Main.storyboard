@@ -48,6 +48,9 @@
                             <constraint id="11" firstItem="10" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
                             <constraint id="12" firstItem="10" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="24"/>
                         </constraints>
+                        <accessibility key="accessibilityConfiguration" label="MainPage">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                     </view>
                     <connections>
                         <outlet property="MessageText" destination="3" id="name-outlet-3"/>
