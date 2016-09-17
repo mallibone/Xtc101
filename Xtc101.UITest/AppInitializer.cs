@@ -10,6 +10,8 @@ namespace Xtc101.UITest
             {
                 return ConfigureApp
                     .Android
+                    // Run Release Android project on Simulator and then uncomment line bellow (you can run the tests under the debug config)
+                    //.ApkFile("../../../Xtc101/bin/Release/com.companyname.xtc101.apk")
                     .PreferIdeSettings()
                     .StartApp();
             }
